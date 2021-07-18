@@ -1,0 +1,85 @@
+﻿New Features
+1. Going to Town
+* Implement a town map
+* Add a vehicle in the main map to allow the Player to travel from the main map to the town map to and fro
+* There is 1 sniper rifle and 1 shotgun placed somewhere on the town map
+* All Actors in both maps must continue to move and act no matter which map the Player is currently on
+
+
+2. New Weapons: Shotgun and Sniper Rifle
+* Ranged weapons
+* Use ammunition
+   * Shotgun uses shotgun shells
+   * Sniper rifle uses sniper bullets
+   * Boxes of ammunition are placed somewhere on the map
+* Shotgun
+   * Range is 3 squares
+   * Fires out a 90° cone
+   * Inflicts AoE damage / Can hit multiple targets
+   * Player can choose the direction to fire
+   * 75% chance to hit any target within range
+* Sniper rifle
+   * When the Player uses it, a submenu appears to allow them to choose their target
+   * After selecting a target, the Player is given a choice to fire instantly, aim for 1 round, or aim for 2 rounds
+      * No aim                : 75% accuracy, normal damage
+      * 1 round        : 90% accuracy, double damage
+      * 2 rounds        : 100% accuracy, instakill
+   * If the Player decides to do something else in the middle of this aiming process, they will lose their target
+   * The Player also loses their target if they take damage
+
+
+3. Mambo Marie
+* Zombie boss
+* If she is not on the map, there is a 5% chance of her appearing
+* Appears at the edge of the map and wanders randomly
+* Every 10 turns, she will chant
+   * This will cause 5 Zombies to spawn randomly on the map
+* If she is not killed, she will disappear after 30 turns
+* She will keep on coming back until she is killed
+
+
+4. Ending the Game
+* “Quit game” option in the menu
+* Player loses when Player dies or all Humans are killed
+* Player wins when all Zombies and Mambo Marie are killed
+
+
+
+
+Responsibilities
+1. Draw Class Diagram for Going to Town, Mambo Marie and Ending the Game features
+* Who is responsible: Bryan Ho
+* Date to deliver: 12-6-2020
+
+
+2. Draw Class Diagram for New Weapons feature
+* Who is responsible: Shen Min
+* Date to deliver: 12-6-2020
+
+
+3. Document design rationale for the features above
+* Who is responsible: Bryan Ho, Shen Min
+* Date to deliver: 12-6-2020
+
+
+4. Document class responsibilities for the respective features implemented
+* Who is responsible: Bryan Ho, Shen Min
+* Date to deliver: 12-6-2020
+
+
+5. Draw Sequence Diagrams necessary for the new features
+* Who is responsible: Bryan Ho, Shen Min
+* Date to deliver: 12-6-2020
+
+
+6. Document recommendations to change the engine package
+* Who is responsible: Bryan Ho, Shen Min
+* Date to deliver: 12-6-2020
+
+
+
+
+Acceptance of WBA
+Only fill this up after we upload this to our repository
+I accept this WBA - Bryan Ho Yung Kynn
+I accept this WBA - Chew Shen Min

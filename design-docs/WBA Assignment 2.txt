@@ -1,0 +1,21 @@
+﻿Responsibilities
+1. Implement Zombie Attacks, Beating up the Zombies and Crafting Weapons features
+* Who is responsible: Bryan Ho
+* Date to deliver: 22-5-2020
+
+
+2. Implement Rising from the Dead and Farmers and Food features
+* Who is responsible: Shen Min
+* Date to deliver: 22-5-2020
+
+
+3. Update class diagrams, class responsibilities and design rationale for any design changes
+* Who is responsible: Bryan Ho, Shen Min
+* Date to deliver: 22-5-2020
+
+
+
+Acceptance of WBA
+Only fill this up after we upload this to our repository
+I accept this WBA - Bryan Ho Yung Kynn
+I accept this WBA - Chew Shen Min

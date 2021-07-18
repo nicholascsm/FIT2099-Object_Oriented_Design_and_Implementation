@@ -1,0 +1,90 @@
+﻿New Features
+1. Zombie Attacks
+* Zombie has 50% chance to bite, 50% chance to punch
+* Bite attacks are harder to land but deal more damage
+* Successful bite attack restores 5 HP to the Zombie
+* Zombie will pick up a weapon if they are standing on it
+* Zombie will use the weapon instead of punching / biting
+* Zombie has 10% chance to say “Braaaaains”
+
+
+2. Beating up the Zombies
+* Zombie has 2 arms and 2 legs on creation
+* 25% chance for Zombie’s limbs to come off after being attacked
+* If Zombie loses an arm:
+   * 75% chance to bite
+   * 25% chance to punch
+   * 50% chance the Zombie drops their weapon
+* If both arms lost:
+   * 100% chance to bite
+   * 0% chance to punch
+   * 100% chance the Zombie drops their weapon and cannot pick up
+* If Zombie loses a leg:
+   * Can only move once every 2 turns 
+* If both legs lost:
+   * Cannot move at all
+* Lost limbs drop beside the Zombie’s location
+
+
+3. Crafting Weapons
+Allow players to craft better weapons out of bits dropped from zombies everywhere.
+* If player is holding a Zombie arm:
+   * Can craft into Zombie club
+   * Significantly more damage
+* If player is holding a Zombie leg:
+   * Can craft into Zombie mace
+   * Does even more damage
+
+
+4. Rising from the Dead
+Killed by Zombie = Become a Zombie yourself
+* After human is killed
+   * Corpse should rise from the dead as a Zombie 5-10 turns later
+
+
+5. Farmers and Food
+* Farmer inherits from Human
+* If Farmer is standing on Dirt:
+   * 33% chance to sow a Crop on it
+* Crop will ripen after 20 turns
+* If Farmer is standing on an unripe Crop:
+   * Farmer can fertilise it and reduce the time left to ripen by 10 turns
+* If Farmer / Player is standing on or next to a ripe Crop:
+   * Can harvest it for Food
+   * If Farmer harvests, the Food drops on the ground
+   * If Player harvests, the Food goes into their inventory
+* Food can be eaten by Player or Human to recover HP
+
+
+
+
+Responsibilities
+We will split the features to implement evenly among us and we will try to understand the code to implement the new features respectively. If one of us has a proposed design on a feature they will share and discuss with the other through rough code concepts and prototype UML diagrams till both of us agree on the suggested design to finalise it.
+
+
+1. Draw Class Diagram for Zombie Attacks, Beating up the Zombies and Crafting Weapons features
+* Who is responsible: Bryan Ho
+* Date to deliver: 10-5-2020
+
+
+2. Draw Class Diagram for Rising from the Dead and Farmers and Food features
+* Who is responsible: Shen Min
+* Date to deliver: 10-5-2020
+
+
+3. Document design rationale for the features above
+* Who is responsible: Bryan Ho, Shen Min
+* Date to deliver: 10-5-2020
+
+
+4. Document class responsibilities for the respective features implemented
+* Who is responsible: Bryan Ho, Shen Min
+* Date to deliver: 10-5-2020
+
+
+
+
+Acceptance of WBA
+Only fill this up after we upload this to our repository
+I accept this WBA - Bryan Ho Yung Kynn
+I accept this WBA - Chew Shen Min
